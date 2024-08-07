@@ -1,0 +1,29 @@
+{
+  "name": "flight_project",
+  "version": "1.0.0",
+  "description": "fullstack part 9",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "dev": "ts-node-dev src/index.ts",
+    "lint": "eslint .",
+    "start": "node build/index.js"
+  },
+  "author": "np",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.0.2",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
+    "eslint": "^9.8.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@stylistic/eslint-plugin": "^2.6.1",
+    "express": "^4.19.2",
+    "typescript-eslint": "^8.0.0"
+  }
+}
